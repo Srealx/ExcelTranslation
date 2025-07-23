@@ -21,12 +21,13 @@
 ```markdown
 IExcelBusinessBase (接口)
 ├─ IExBase (导出接口)
-│  └─ ExcelExportTemplate (单页导出模板)
-│     └─ ExcelMultipartExportTemplate (多页导出模板)
+   └─ CommonExportTemplate (导出基础)
+│    └─ ExcelExportTemplate (单页导出模板)
+│    └─ ExcelMultipartExportTemplate (多页导出模板)
 │
 └─ IImBase (导入接口)
-   └─ ExcelImportTemplate (导入模板)
-      └─ CommonImportTemplate (导入基础)
+   └─ CommonImportTemplate (导入基础)
+      └─ ExcelImportTemplate (导入模板)
 ```
 
 ### 2. 关键组件
